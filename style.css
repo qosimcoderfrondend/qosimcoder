@@ -1,0 +1,626 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+.sadbar{
+    padding: 30px 40px;
+    color: white;
+    font-size: 28px;    
+    font-weight: 500;
+    position: fixed;
+    z-index: 999;
+}
+.sadbar h1{
+    font-weight: 400;
+}
+.sadbar span{
+    color: #0059FF;
+}
+nav{
+    width: 100%;
+    height: 14vh;
+    justify-content: center;
+    position: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#000000;
+}
+li{
+    list-style: none;
+}
+ul{
+    margin-left: 980px;
+    display: flex;
+}
+li a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    margin-left: 32px;
+    font-size: 20px;
+    transition: .5s ease;
+    margin-top: 48px;
+}
+li a:hover{
+    color: #0059FF;
+    border-bottom: 1px solid #0059FF;
+    font-size: 21px;
+}
+/* Home  */
+.home-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imgs/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    /* padding: 300px;  */
+    text-align: center;
+    letter-spacing: .7px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-attachment: fixed;
+}
+.home-section h1{
+    margin-top: 260px;
+    position: absolute;
+    margin-bottom: 20px;
+    font-size: 75px;
+    font-weight: 300;
+    margin-left: 570px
+}
+.home-section h1 span{
+    color: #0059FF;
+    font-weight: 500;
+}
+.home-section p{
+    font-size: 39px;
+    letter-spacing: .9px;
+    font-weight: 400;
+    margin-top: 400px;
+    margin-left: 680px;
+    position: absolute;
+}
+/* about */
+.about-section{
+    width: 100%;
+    height: 100vh;
+}
+.about-section img{
+    width: 480px;
+    height: 650px;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.about-tetle{
+    margin-left: 400px;
+    color: white;
+    margin-top: -590px;
+}
+.about-tetle h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 25px;
+    margin-left: 420px;
+    margin-top: -100px;
+}
+.about-tetle p{
+    margin-left: 292px;
+    letter-spacing: .5px;
+    font-weight: 100;
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+.amen{
+    margin-left: -30px;
+    margin-left: 130px;
+}
+.amen i{
+    color: #0059FF;
+    letter-spacing: 2px;
+}
+.amen span{
+    color: white;
+}
+.amen h2{
+    margin-left: 290px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.skilis{
+    margin-left: 420px; 
+    margin-top: 140px
+}
+.skilis h1{
+    font-size: 35px;
+    margin-top: 20;
+    margin-left: -10px;
+    font-weight: 800;
+}
+.skilis svg{
+    margin-top: 20px;
+    width: 65px;
+    margin-left: 10px;
+}
+
+
+/* servises */
+.servises{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+.servises h1{
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.servises p{
+    font-weight: 200;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.boxs div{
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    display: inline-block;
+    border-radius: 10px;
+    border: 6px solid #0059FF;
+    margin-top: 100px;
+    margin-left: 15px;
+    transition: .6 ease;
+}
+.boxs div:hover{
+    background-color: #0059FF;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #0059FF;
+    transform: scale(.9);
+    z-index: 2;
+}
+.boxs div div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top: 30px;
+    justify-content: center;
+}
+.boxs div div:hover{
+    color: white;
+    border: 4px solid white;
+}
+.boxs div div svg{
+     width: 50px;
+     margin-top: 25px;
+     margin-bottom: 45px;
+}
+.boxs div h2{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.boxs div p{
+   width: 350px;
+   margin-left: 53px;
+   line-height: 30px;
+}
+
+/* work */
+.work{
+    width: 100%;
+    height: 120vh;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    text-align: center;
+    z-index: -9;
+}
+.work h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.work p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.imgs{
+    margin-top: 20px;
+}
+.imgs div{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.imgs div img{
+    width: 400px;
+    height: 300px; 
+    transition: .6s ease;
+}
+.imgs div img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.work button{
+    width: 180px;
+    height: 45px;
+    border: none;
+    margin-top: 60px;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+    border-radius: 5px;
+    transition: .6s ease;
+    font-size: 17px;
+}
+.work button:hover{
+    background: none;
+    border: 2px solid crimson;
+}
+/* contact */
+.contact{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 70vh;
+}
+.contact h1{
+    font-size: 55px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ .contact-form{
+    background:#fff;
+    max-width: 700px;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius:12px;
+    box-shadow: 0px 5px 25px rgb(1, 1,1, 15%);
+    margin-left: 400px;
+ }
+ .contact-form h3{
+    color:#111;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 40px;
+ }
+ .contact-form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+ }
+ .contact-form .input-box input,
+ .contact-form .input-box textarea{
+    color: #111;
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    outline: none;
+    border: 1px solid #111;
+    border-radius:5px;
+    resize: none; 
+    max-width: 600px;
+ }
+ .contact-form .input-box .send-btn{
+    color: #fff;
+    background:crimson;
+    display: inline-block;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+    border:none;
+    cursor: pointer;
+    transition: .5s ease;
+ }
+ .contact-form .input-box .send-btn:hover{
+   background:#fff;
+   color: #111;
+   border: 2px solid #111
+ }
+
+ .footer{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    margin-top: 50px;
+ }
+ .footer h1{
+    margin-left: -356px;
+    font-size: 24px;
+    font-weight: 500;
+ }
+ .icons-01{
+    margin-left: 390px;
+    margin-top: -30px;
+ }
+ .icons-01 svg{
+    width: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+ }
+ .icons-01 svg:hover{
+   color: #0059FF;
+ }
+
+
+ /* Media responsev */
+
+ @media (max-width: 1300px){
+  ul{
+    margin-left: 700px;
+  }
+  .home-section h1{
+    margin-left: 390px;
+  } 
+  .home-section p{
+    margin-left: 490px;
+  }
+  .servises{
+    width: 100%;
+    height: 140vh;
+  }
+  .work{
+    width: 100%;
+    height: 100vh;
+  }
+  .imgs{
+    text-align: center;
+    margin-left: -80px;
+  }
+  .imgs div img{
+    width: 440px;
+  }
+ .row{
+    margin-left: -100px;
+ }
+ } 
+
+   @media (max-width: 1000px){
+    ul{
+        margin-left: 260px;
+      }
+      .home-section{
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        justify-content: center;
+      }
+      .home-section h1{
+        margin-left: 70px;
+        margin-top: 480px;
+        font-size: 53px;
+      }
+      .home-section p{
+        margin-left: 70px;
+      }
+      .skilis{
+        text-align: center;
+        justify-content: center;
+        margin-left: -120px;
+        margin-top: 400px;
+
+      }
+      .skilis svg{
+        width: 70px;
+      }
+      .servises{
+        width: 100%;
+        height: 150vh;
+        text-align: center;
+        justify-content: center;
+      }
+      .work{
+        width: 100%;
+        height: 200vh;
+      }
+      .imgs{
+        text-align: center;
+        margin-left: 70px;
+      }
+      .imgs div{
+        margin-bottom: 10px;
+      }
+      .contact{
+        width: 100%;
+        height: 40vh;
+        margin-top: 100px;
+      }
+      .row{
+        margin-left: -300px;
+      }
+ } 
+ @media (max-width: 900px){
+    .home-section{
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+    }
+    .home-section h1{
+        font-size: 75px;
+    }
+    .home-section p{
+        text-align: center;
+        margin-left: 75px;
+        font-size: 40px;
+        margin-top: 620px;
+    }
+    .about-section{
+        width: 100%;
+        height: 130vh;
+    }
+    .about-tetle h1{
+        margin-left: -260px;
+        margin-top: 655px;
+        font-size: 35px;
+    }
+    .about-section img{
+        width: 500px;
+        text-align: center;
+    }
+    .amen{
+        margin-left: -550px;
+        margin-top: 30px;
+    }
+    .amen p{
+        font-size: 28px;
+    }
+    .skilis{
+        text-align: center;
+        margin-left: -400px;
+        margin-top: -510px;
+
+      }
+      .skilis svg{
+        width: 85px;
+      }
+      .skilis h1{
+        text-align: center;
+        margin-left: 30px;
+      }
+      .work{
+        width: 100%;
+        height: 180vh;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+      }
+      .imgs div img{
+        width: 530px;
+        margin-left: -166px;
+      }
+      .contact{
+        width: 100%;
+        height: 30vh;
+        margin-top: 200px;
+      }
+      .contact-form{
+        margin-left: 360px;
+      }
+     
+ }  
+@media (max-width: 650px){
+  nav{
+    width: 100%;
+    height: 14vh;
+    position: fixed;
+  }
+  ul{
+    display: none;
+  }
+  li{
+    display: none;
+  }
+  li a{
+    display: none;
+  }
+  .home-section{
+    width: 100%;
+    height: 100vh;
+  }
+  .home-section h1{
+    font-size: 42px;
+    margin-left: -170px;
+    display: inline-block;
+    padding: 20px;
+    margin-top: 260px;
+  }
+  .home-section p{
+   display: block;
+   margin-top: 380px;
+   margin-left: 45px;
+   font-size: 28px;
+  }
+  .about-section{
+    width: 100%;
+    height: 260vh;
+  }
+  .about-section img{
+    width: 300px;
+    height: 370px;
+    margin-left: 34px;
+  }
+  .about-tetle h1{
+    margin-left: -370px;
+  }
+  .amen{
+    margin-left: -680px;
+  }
+  .amen p{
+    font-size: 16px;
+  }
+  .text_01{
+    width: 300px;
+  }
+  .skilis{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .skilis h1{
+    margin-left: 80px;
+    width: 200px;
+  }
+  .skilis svg{
+    margin-left: 130px;
+    width: 80px;
+  }
+  .servises{
+    width: 100%;
+    height: 210vh;
+  }
+  .boxs div{
+     width: 300px;
+     margin-left: -10px;
+  }
+  .boxs div p{
+    width: 280px;
+    margin-left: 10px;
+    font-size: 17px;
+  }
+  .work{
+    width: 100%;
+    height: 270vh;
+  }
+  .imgs div {
+    width: 300px;
+    height: 300px;
+    margin-left: -70px;
+  }
+  .imgs div img{
+    width: 300px;
+    height: 300px;
+    margin-left: -5px;
+  }
+  .contact{
+    margin-top: 300px;
+  }
+  .contact-form{
+    width: 330px;
+    margin-left: 320px;
+  }
+  .footer h1{
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .icons-01{
+    display: none;
+  }
+} 
